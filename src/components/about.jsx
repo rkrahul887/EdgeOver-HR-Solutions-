@@ -21,6 +21,12 @@ class About extends React.Component {
           value: "90",
         },
         {
+          id: "AngularJS_skill",
+          content: "AngularJS",
+          porcentage: "75%",
+          value: "75",
+        },
+        {
           id: "ExpressJS_skill",
           content: "ExpressJS",
           porcentage: "70%",

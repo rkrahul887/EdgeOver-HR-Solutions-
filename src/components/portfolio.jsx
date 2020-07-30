@@ -8,6 +8,16 @@ import certificate4 from "../img/certificate4.jpg";
 import certificate5 from "../img/certificate5.jpg";
 import certificate6 from "../img/certificate6.jpeg";
 import certificate7 from "../img/certificate7.jpeg";
+import certificate8 from "../img/certificate8.jpg";
+import certificate9 from "../img/certificate9.jpeg";
+import certificate10 from "../img/certificate10.jpg";
+import certificate11 from "../img/certificate11.jpg";
+import certificate12 from "../img/certificate12.jpg";
+import certificate13 from "../img/certificate13.jpg";
+import certificate14 from "../img/certificate14.jpg";
+import certificate15 from "../img/certificate15.jpg";
+import certificate16 from "../img/certificate16.jpg";
+import certificate17 from "../img/certificate17.jpeg";
 
 //import perspective project
 import Perspective1 from "../img/Perspective1.png";
@@ -91,7 +101,7 @@ class Portfolio extends React.Component {
             {/*Certificates */}
             <div className="col-md-4">
               <div className="work-box">
-                <a href={certificate5} data-lightbox="gallery-vmarine">
+                <a href={certificate5} data-lightbox="gallery-certificates">
                   <div className="work-img">
                     <img src={certificate5} alt="" className="img-fluid" />
                   </div>
@@ -116,49 +126,112 @@ class Portfolio extends React.Component {
                 </a>
                 <a
                   href={certificate1}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-certificates"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={certificate2}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-certificates"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={certificate3}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-certificates"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={certificate4}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-certificates"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={certificate5}
-                  data-lightbox="gallery-vmarine"
+                  href={certificate8}
+                  data-lightbox="gallery-certificates"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={certificate6}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-certificates"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={certificate7}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-certificates"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={certificate9}
+                  data-lightbox="gallery-certificates"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={certificate10}
+                  data-lightbox="gallery-certificates"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={certificate11}
+                  data-lightbox="gallery-certificates"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={certificate12}
+                  data-lightbox="gallery-certificates"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={certificate13}
+                  data-lightbox="gallery-certificates"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={certificate14}
+                  data-lightbox="gallery-certificates"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={certificate15}
+                  data-lightbox="gallery-certificates"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={certificate16}
+                  data-lightbox="gallery-certificates"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={certificate17}
+                  data-lightbox="gallery-certificates"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
@@ -185,7 +258,7 @@ class Portfolio extends React.Component {
                     </li>
                   </ul>
                 </div>
-                <a href={Perspective1} data-lightbox="gallery-vmarine">
+                <a href={Perspective1} data-lightbox="gallery-Perspective">
                   <div className="work-img">
                     <img src={Perspective1} alt="" className="img-fluid" />
                   </div>
@@ -211,49 +284,49 @@ class Portfolio extends React.Component {
                 </a>
                 <a
                   href={Perspective2}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-Perspective"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={Perspective3}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-Perspective"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={Perspective4}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-Perspective"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={Perspective5}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-Perspective"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={Perspective6}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-Perspective"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={Perspective7}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-Perspective"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={Perspective8}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-Perspective"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
@@ -280,7 +353,7 @@ class Portfolio extends React.Component {
                     </li>
                   </ul>
                 </div>
-                <a href={openevent1} data-lightbox="gallery-vmarine">
+                <a href={openevent1} data-lightbox="gallery-openevent">
                   <div className="work-img">
                     <img src={openevent1} alt="" className="img-fluid" />
                   </div>
@@ -305,49 +378,49 @@ class Portfolio extends React.Component {
                 </a>
                 <a
                   href={openevent2}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-openevent"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={openevent3}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-openevent"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={openevent4}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-openevent"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={openevent5}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-openevent"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={openevent6}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-openevent"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={openevent7}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-openevent"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={openevent8}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-openevent"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
@@ -374,7 +447,7 @@ class Portfolio extends React.Component {
                     </li>
                   </ul>
                 </div>
-                <a href={isa1} data-lightbox="gallery-vmarine">
+                <a href={isa1} data-lightbox="gallery-isa">
                   <div className="work-img">
                     <img src={isa1} alt="" className="img-fluid" />
                   </div>
@@ -400,49 +473,49 @@ class Portfolio extends React.Component {
                 </a>
                 <a
                   href={isa1}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-isa"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={isa2}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-isa"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={isa3}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-isa"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={isa4}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-isa"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={isa5}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-isa"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={isa2}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-isa"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={isa1}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-isa"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
@@ -469,7 +542,7 @@ class Portfolio extends React.Component {
                     </li>
                   </ul>
                 </div>
-                <a href={ecommerce1} data-lightbox="gallery-vmarine">
+                <a href={ecommerce1} data-lightbox="gallery-ecommerce">
                   <div className="work-img">
                     <img src={ecommerce1} alt="" className="img-fluid" />
                   </div>
@@ -494,49 +567,49 @@ class Portfolio extends React.Component {
                 </a>
                 <a
                   href={ecommerce2}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-ecommerce"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={ecommerce3}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-ecommerce"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={ecommerce4}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-ecommerce"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={ecommerce1}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-ecommerce"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={ecommerce2}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-ecommerce"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={ecommerce3}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-ecommerce"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={ecommerce4}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-ecommerce"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
@@ -563,7 +636,7 @@ class Portfolio extends React.Component {
                     </li>
                   </ul>
                 </div>
-                <a href={drone1} data-lightbox="gallery-vmarine">
+                <a href={drone1} data-lightbox="gallery-iotdrone">
                   <div className="work-img">
                     <img src={drone1} alt="" className="img-fluid" />
                   </div>
@@ -591,49 +664,49 @@ class Portfolio extends React.Component {
                 </a>
                 <a
                   href={drone1}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-iotdrone"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={drone2}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-iotdrone"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={drone3}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-iotdrone"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={drone1}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-iotdrone"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={drone2}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-iotdrone"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={drone3}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-iotdrone"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={drone1}
-                  data-lightbox="gallery-vmarine"
+                  data-lightbox="gallery-iotdrone"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
