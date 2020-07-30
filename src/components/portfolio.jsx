@@ -9,12 +9,43 @@ import certificate5 from "../img/certificate5.jpg";
 import certificate6 from "../img/certificate6.jpeg";
 import certificate7 from "../img/certificate7.jpeg";
 
+//import perspective project
+import Perspective1 from "../img/Perspective1.png";
+import Perspective2 from "../img/Perspective2.png";
+import Perspective3 from "../img/Perspective3.png";
+import Perspective4 from "../img/Perspective4.png";
+import Perspective5 from "../img/Perspective5.png";
+import Perspective6 from "../img/Perspective6.png";
+import Perspective7 from "../img/Perspective7.png";
+import Perspective8 from "../img/Perspective8.png";
+
 //import ISA-HIT-Website
 import isa1 from "../img/isa-img1.png";
 import isa2 from "../img/isa-img2.png";
 import isa3 from "../img/isa-img3.png";
 import isa4 from "../img/isa-img4.png";
 import isa5 from "../img/isa-img5.png";
+
+//import open event
+import openevent1 from "../img/open-event1.png";
+import openevent2 from "../img/open-event2.png";
+import openevent3 from "../img/open-event3.png";
+import openevent4 from "../img/open-event4.png";
+import openevent5 from "../img/open-event5.png";
+import openevent6 from "../img/open-event6.png";
+import openevent7 from "../img/open-event7.png";
+import openevent8 from "../img/open-event8.png";
+
+//import E-commerce
+import ecommerce1 from "../img/E-commerce1.png";
+import ecommerce2 from "../img/E-commerce2.png";
+import ecommerce3 from "../img/E-commerce3.png";
+import ecommerce4 from "../img/E-commerce4.png";
+
+//import drone project
+import drone1 from "../img/drone1.jpeg";
+import drone2 from "../img/drone2.jpg";
+import drone3 from "../img/drone3.jpg";
 
 //aguadeluz pics
 import aguaDeLuz from "../img/aguaDeLuz.png";
@@ -57,6 +88,7 @@ class Portfolio extends React.Component {
             </div>
           </div>
           <div className="row">
+            {/*Certificates */}
             <div className="col-md-4">
               <div className="work-box">
                 <a href={certificate5} data-lightbox="gallery-vmarine">
@@ -133,6 +165,198 @@ class Portfolio extends React.Component {
                 </a>
               </div>
             </div>
+
+            {/* Perspective Project */}
+
+            <div className="col-md-4">
+              <div className="work-box">
+                <div style={{ textAlign: "right" }} className="socials">
+                  <ul>
+                    <li>
+                      <a
+                        href="https://github.com/rkrahulmishra887/perspective"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <span className="ico-circle">
+                          <i className="ion-social-github"></i>
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <a href={Perspective1} data-lightbox="gallery-vmarine">
+                  <div className="work-img">
+                    <img src={Perspective1} alt="" className="img-fluid" />
+                  </div>
+                  <div className="work-content">
+                    <div className="row">
+                      <div className="col-sm-8">
+                        <h2 className="w-title">Perspective for traders</h2>
+                        <div className="w-more">
+                          <span className="w-ctegory">
+                            Javascript,Typescript,ReactJS,RestAPI,GIT,Financial
+                            Analysis
+                          </span>{" "}
+                          {/*/ <span className="w-date">18 Sep. 2018</span>*/}
+                        </div>
+                      </div>
+                      <div className="col-sm-4">
+                        <div className="w-like">
+                          <span className="ion-ios-plus-outline"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  href={Perspective2}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={Perspective3}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={Perspective4}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={Perspective5}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={Perspective6}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={Perspective7}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={Perspective8}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+              </div>
+            </div>
+
+            {/* fossasia open event server project */}
+
+            <div className="col-md-4">
+              <div className="work-box">
+                <div style={{ textAlign: "right" }} className="socials">
+                  <ul>
+                    <li>
+                      <a
+                        href="https://github.com/rkrahulmishra887/open-event-server"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <span className="ico-circle">
+                          <i className="ion-social-github"></i>
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <a href={openevent1} data-lightbox="gallery-vmarine">
+                  <div className="work-img">
+                    <img src={openevent1} alt="" className="img-fluid" />
+                  </div>
+                  <div className="work-content">
+                    <div className="row">
+                      <div className="col-sm-8">
+                        <h2 className="w-title">Open Event Server</h2>
+                        <div className="w-more">
+                          <span className="w-ctegory">
+                            Python,Javascript,Flask,uWSGI,AWS,Celery,GIT
+                          </span>{" "}
+                          {/*/ <span className="w-date">18 Sep. 2018</span>*/}
+                        </div>
+                      </div>
+                      <div className="col-sm-4">
+                        <div className="w-like">
+                          <span className="ion-ios-plus-outline"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  href={openevent2}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={openevent3}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={openevent4}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={openevent5}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={openevent6}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={openevent7}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={openevent8}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+              </div>
+            </div>
+
+            {/*ISA Website Project*/}
+
             <div className="col-md-4">
               <div className="work-box">
                 <div style={{ textAlign: "right" }} className="socials">
@@ -225,6 +449,198 @@ class Portfolio extends React.Component {
                 </a>
               </div>
             </div>
+
+            {/*E-commerce website */}
+
+            <div className="col-md-4">
+              <div className="work-box">
+                <div style={{ textAlign: "right" }} className="socials">
+                  <ul>
+                    <li>
+                      <a
+                        href="https://github.com/rkrahulmishra887/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <span className="ico-circle">
+                          <i className="ion-social-github"></i>
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <a href={ecommerce1} data-lightbox="gallery-vmarine">
+                  <div className="work-img">
+                    <img src={ecommerce1} alt="" className="img-fluid" />
+                  </div>
+                  <div className="work-content">
+                    <div className="row">
+                      <div className="col-sm-8">
+                        <h2 className="w-title">E-commerce website</h2>
+                        <div className="w-more">
+                          <span className="w-ctegory">
+                            Python3,Django,SQL,GIT
+                          </span>{" "}
+                          {/*/ <span className="w-date">18 Sep. 2018</span>*/}
+                        </div>
+                      </div>
+                      <div className="col-sm-4">
+                        <div className="w-like">
+                          <span className="ion-ios-plus-outline"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  href={ecommerce2}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={ecommerce3}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={ecommerce4}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={ecommerce1}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={ecommerce2}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={ecommerce3}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={ecommerce4}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+              </div>
+            </div>
+
+            {/*IOT Drone Project */}
+
+            <div className="col-md-4">
+              <div className="work-box">
+                <div style={{ textAlign: "right" }} className="socials">
+                  <ul>
+                    <li>
+                      <a
+                        href="https://github.com/rkrahulmishra887/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <span className="ico-circle">
+                          <i className="ion-social-github"></i>
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <a href={drone1} data-lightbox="gallery-vmarine">
+                  <div className="work-img">
+                    <img src={drone1} alt="" className="img-fluid" />
+                  </div>
+                  <div className="work-content">
+                    <div className="row">
+                      <div className="col-sm-8">
+                        <h2 className="w-title">
+                          IoT based drone for Military Application
+                        </h2>
+                        <div className="w-more">
+                          <span className="w-ctegory">
+                            RaspberryPi3b+,Pixhawk,Mission_Planner,Python3,Linux,
+                            Opencv,Image_processing,GIT
+                          </span>{" "}
+                          {/*/ <span className="w-date">18 Sep. 2018</span>*/}
+                        </div>
+                      </div>
+                      <div className="col-sm-4">
+                        <div className="w-like">
+                          <span className="ion-ios-plus-outline"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  href={drone1}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={drone2}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={drone3}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={drone1}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={drone2}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={drone3}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={drone1}
+                  data-lightbox="gallery-vmarine"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+              </div>
+            </div>
+
             <div className="col-md-4">
               <div className="work-box">
                 <a href={aguaDeLuz} data-lightbox="gallery-aguadeluz">

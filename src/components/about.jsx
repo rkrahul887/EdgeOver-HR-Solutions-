@@ -81,14 +81,19 @@ class About extends React.Component {
             "Software Engineer who loves to transform ideas into reality using code. I am passionate about using Javascript and Animation Libraries to create awesome user experiences.",
         },
         {
+          id: "first-p-about",
+          content:
+            "Accomplished Software Developer specialized in object-oriented approach to Network and platform development. Extensive background in the full life cycle of software development encompassing design, coding, testing,debuging. I seek challenging opportunities where I can fully use my skills for the success of the organization.",
+        },
+        {
           id: "second-p-about",
           content:
-            "With over two years of experience developing web applications using the latest front-end and back-end technologies.",
+            "With less than 1 years of experience developing web applications using the latest front-end and back-end technologies.",
         },
         {
           id: "third-p-about",
           content:
-            "Motivated designer and developer with experience creating custom websites with ReactJs, JavaScript, HTML5, and CSS3. Strong collaboration skills and proven history of application development. Wordpress and MySQL.",
+            "Motivated designer and developer with experience creating custom websites with ReactJs, JavaScript, HTML5, and CSS3. Strong collaboration skills and proven history of application development.",
         },
       ],
     };

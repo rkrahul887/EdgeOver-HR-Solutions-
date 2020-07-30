@@ -127,7 +127,7 @@ class Navbar extends React.Component {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll" href="/">
+                <a className="nav-link js-scroll" href="#resume">
                   Resume
                 </a>
               </li>
@@ -137,10 +137,7 @@ class Navbar extends React.Component {
                 </a>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="http://ec2-15-206-168-185.ap-south-1.compute.amazonaws.com/"
-                >
+                <a className="nav-link" href="/">
                   Blog
                 </a>
               </li>
