@@ -1,8 +1,8 @@
 import React from "react";
 import $ from "jquery";
 
-import logo1 from "../img/logo-white.jpg";
-import logo2 from "../img/logo-blue.jpg";
+import logo1 from "../img/edgeover_logo.png";
+import logo2 from "../img/edgeover_logo.png";
 
 class Navbar extends React.Component {
   constructor() {
@@ -118,32 +118,37 @@ class Navbar extends React.Component {
               </li>
               <li className="nav-item">
                 <a className="nav-link js-scroll" href="#about">
-                  About
+                  About Us
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link js-scroll" href="#work">
-                  Work
+                  Portfolio
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll" href="#resume">
-                  Resume
+                <a className="nav-link js-scroll" href="#staffing">
+                  Staffing
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link js-scroll" href="/">
-                  Testimonials
+                  Excellence
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link js-scroll" href="#clients">
+                  Clients
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/">
-                  Blog
+                  Values
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link js-scroll" href="#contact">
-                  Contact
+                  Contact Us
                 </a>
               </li>
             </ul>

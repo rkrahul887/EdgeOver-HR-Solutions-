@@ -165,7 +165,7 @@ class Contact extends React.Component {
               <div className="col-sm-12">
                 <div className="copyright-box">
                   <p className="copyright">
-                    2020 &copy; Copyright <strong>Rahul Mishra</strong>. All
+                    2009-2022 &copy;Copyright <strong>            EdgeOver Solutions Pvt. Ltd.</strong>            All
                     Rights Reserved
                   </p>
                 </div>

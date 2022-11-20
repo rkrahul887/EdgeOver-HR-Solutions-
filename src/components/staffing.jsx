@@ -1,113 +1,17 @@
 import React from "react";
 import myImage from "../img/myImage.jpg";
 
-class About extends React.Component {
+class Staffing extends React.Component {
   constructor() {
     super();
     this.state = {
-      // skills: [
-      //   {
-      //     id: "NodeJS_skill",
-      //     content: "NodeJS",
-      //     porcentage: "80%",
-      //     value: "80",
-      //   },
-      //   { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
-      //   { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
-      //   {
-      //     id: "JavaScript_skill",
-      //     content: "JavaScript",
-      //     porcentage: "90%",
-      //     value: "90",
-      //   },
-      //   {
-      //     id: "AngularJS_skill",
-      //     content: "AngularJS",
-      //     porcentage: "75%",
-      //     value: "75",
-      //   },
-      //   {
-      //     id: "ExpressJS_skill",
-      //     content: "ExpressJS",
-      //     porcentage: "70%",
-      //     value: "70",
-      //   },
-      //   {
-      //     id: "ReactJS_skill",
-      //     content: "ReactJS",
-      //     porcentage: "80%",
-      //     value: "80",
-      //   },
-      //   {
-      //     id: "Python_skill",
-      //     content: "Python",
-      //     porcentage: "75%",
-      //     value: "75",
-      //   },
-      //   {
-      //     id: "Linux_skill",
-      //     content: "Linux",
-      //     porcentage: "65%",
-      //     value: "65",
-      //   },
-      //   {
-      //     id: "MongoDB_skill",
-      //     content: "MongoDB",
-      //     porcentage: "75%",
-      //     value: "75",
-      //   },
-      //   {
-      //     id: "RestAPI_skill",
-      //     content: "RestAPI",
-      //     porcentage: "80%",
-      //     value: "80",
-      //   },
-      //   {
-      //     id: "AWS_skill",
-      //     content: "AWS",
-      //     porcentage: "80%",
-      //     value: "80",
-      //   },
-      //   {
-      //     id: "GIT_skill",
-      //     content: "GIT",
-      //     porcentage: "80%",
-      //     value: "80",
-      //   },
-      // ],
-      about_me: [
-        {
-          id: "first-p-about",
-          content:
-            "With the zeal to reach the acme of success, I want to hold the hands that could beneﬁt the country that reared me up. Accomplished Software Developer specialized in object-oriented approach to Network and platform development.",
-        },
-        {
-          id: "first-p-about",
-          content:
-            "Software Engineer who loves to transform ideas into reality using code. I am passionate about using Javascript and Animation Libraries to create awesome user experiences.",
-        },
-        {
-          id: "first-p-about",
-          content:
-            "Accomplished Software Developer specialized in object-oriented approach to Network and platform development. Extensive background in the full life cycle of software development encompassing design, coding, testing,debuging. I seek challenging opportunities where I can fully use my skills for the success of the organization.",
-        },
-        {
-          id: "second-p-about",
-          content:
-            "With less than 1 years of experience developing web applications using the latest front-end and back-end technologies.",
-        },
-        {
-          id: "third-p-about",
-          content:
-            "Motivated designer and developer with experience creating custom websites with ReactJs, JavaScript, HTML5, and CSS3. Strong collaboration skills and proven history of application development.",
-        },
-      ],
+      
     };
   }
 
   render() {
     return (
-      <section id="about" className="about-mf sect-pt4 route">
+        <section id="staffing" className="about-mf sect-pt4 route">
         <div className="container">
           <div className="row">
             <div className="col-sm-12">
@@ -163,7 +67,7 @@ class About extends React.Component {
                     </div> */}
                   </div>
                   <div>
-                    <h5 className="title-left">About EdgeOver</h5>
+                    <h5 className="title-left">Staffing</h5>
                   </div>
                   {/* <div className="col-md-6">
                     <div className="about-me pt-4 pt-md-0">
@@ -187,4 +91,4 @@ class About extends React.Component {
   }
 }
 
-export default About;
+export default Staffing;

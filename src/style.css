@@ -165,6 +165,7 @@ a:hover {
 .title-left {
   font-size: 2rem;
   position: relative;
+  color: rgb(188, 10, 10);
 }
 
 .title-left:before {
@@ -400,7 +401,7 @@ NAVBAR
 }
 
 .navbar-b.navbar-reduce {
-  box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 6px 9px 0px rgba(186, 125, 46, 0.06);
 }
 
 .navbar-b.navbar-trans .nav-item,
@@ -412,7 +413,7 @@ NAVBAR
 
 .navbar-b.navbar-trans .nav-link,
 .navbar-b.navbar-reduce .nav-link {
-  color: #fff;
+  color: rgb(20, 156, 180);
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -431,7 +432,7 @@ NAVBAR
 
 .navbar-b.navbar-trans .nav-link:hover,
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #1B1B1B;
+  color: #581212;
 }
 
 .navbar-b.navbar-trans .nav-link:hover:before,
@@ -451,18 +452,18 @@ NAVBAR
 }
 
 .navbar-b.navbar-trans .nav-link:before {
-  background-color: #fff;
+  background-color: rgb(20, 163, 127);
 }
 
 .navbar-b.navbar-trans .nav-link:hover {
-  color: #fff;
+  color: rgb(24, 104, 174);
 }
 
 .navbar-b.navbar-trans .show > .nav-link,
 .navbar-b.navbar-trans .active > .nav-link,
 .navbar-b.navbar-trans .nav-link.show,
 .navbar-b.navbar-trans .nav-link.active {
-  color: #fff;
+  color: rgb(32, 103, 184);
 }
 
 .navbar-b.navbar-reduce {
@@ -500,7 +501,7 @@ NAVBAR
 }
 
 .navbar-b .navbar-brand {
-  color: #fff;
+  color: rgb(19, 98, 172);
   font-size: 1.6rem;
   font-weight: 600;
 }
@@ -525,7 +526,7 @@ NAVBAR
 
 .navbar-b .dropdown-menu .dropdown-item:hover {
   background-color: #0078ff;
-  color: #fff;
+  color: rgb(27, 169, 74);
   transition: all 500ms ease;
 }
 
@@ -546,7 +547,7 @@ NAVBAR
 
 .navbar-toggler span {
   display: block;
-  background-color: #fff;
+  background-color: rgb(143, 195, 38);
   height: 3px;
   width: 25px;
   margin-top: 4px;
@@ -592,6 +593,8 @@ NAVBAR
 INTRO
 */
 
+
+
 .intro {
   height: 100vh;
   position: relative;
@@ -615,7 +618,7 @@ INTRO
 }
 
 .intro .intro-title {
-  color: #fff;
+  color: rgb(227, 115, 41);
   font-weight: 600;
   font-size: 3rem;
 }
@@ -625,9 +628,10 @@ INTRO
   font-weight: 300;
 }
 
-/* .intro .text-slider-items {
+.intro .text-slider{
   font-weight: bolder;
-} */
+  color: rgb(91, 145, 183);
+}
 
 .intro-single {
   height: 350px;
@@ -695,6 +699,22 @@ ABOUT
 /*
 PORTFOLIO
 */
+
+.Business{
+  margin-bottom: 1rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  margin-top: 5rem;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  
+}
+
+.sub-staffing{
+  color: rgb(167, 36, 36);
+}
+
+
 
 .work-box {
   margin-bottom: 3rem;
@@ -990,6 +1010,7 @@ BUTTON
 @media (max-width: 1024px) {
   .bg-image {
     background-attachment: scroll;
+    
   }
 }
 

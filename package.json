@@ -5,6 +5,7 @@
   "homepage": "https://www.fdaviz.com/",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "chokidar": "^3.5.3",
     "gh-pages": "^2.0.1",
     "jquery": "^3.4.1",
     "lightbox2": "^2.11.0",

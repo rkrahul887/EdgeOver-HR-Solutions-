@@ -27,6 +27,8 @@ import Portfolio from './components/portfolio.jsx';
 import Contact from './components/contact.jsx';
 import BackToTop from './components/back-top.jsx';
 import Preloader from './components/preloader';
+import Staffing from './components/staffing';
+import Clients from './components/clients';
 
 
 
@@ -36,6 +38,8 @@ ReactDOM.render(
         <Intro />
         <About />
         <Portfolio />
+        <Staffing/>
+        <Clients/>
         <Contact />
         <BackToTop />
         <Preloader />

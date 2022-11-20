@@ -14,19 +14,20 @@ class Intro extends React.Component {
         <div className="intro-content display-table">
           <div className="table-cell">
             <div className="container">
-              <h1 className="intro-title mb-4">Hello, I am Rahul Mishra</h1>
+              <h1 className="intro-title mb-4">EdgeOver HR Solutions Pvt. Ltd.</h1>
               <p className="intro-subtitle">
                 <span className="text-slider-items"></span>
                 <strong className="text-slider">
                   <Typed
                     strings={[
-                      "Full Stack MERN Developer",
-                      "AWS Certified Trainer",
-                      "Software Developer",
-                      "ICSI | CNSS Certified Network Security Sepecialist",
-                      "Certified File Transfer Professional",
-                      "Intern at J.P.Morgan",
-                      "Virtual Intern at Microsoft",
+                      "Relationship",
+                      "Innovation",
+                      "Service",
+                      "Quality",
+                      "Trust",
+                      "International Staffing",
+                      "C-level Hiring",
+                      "Recruitment Process Outsourcing",
                     ]}
                     typeSpeed={80}
                     backDelay={1100}
@@ -35,15 +36,15 @@ class Intro extends React.Component {
                   />
                 </strong>
               </p>
-              <p className="pt-3">
+              {/* <p className="pt-3">
                 <a
                   className="btn btn-primary btn js-scroll px-4"
                   href="#about"
                   role="button"
                 >
-                  View My Work
+                  Innovation that drives business
                 </a>
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
